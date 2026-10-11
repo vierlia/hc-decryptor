@@ -1,0 +1,4 @@
+hcdecryptor.exe
+*.exe~
+*.unlocked.hc
+dist/
