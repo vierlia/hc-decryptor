@@ -24,7 +24,7 @@ hcdecryptor.exe -unlock config.hc  # strip protections, save config.unlocked.hc
 hcdecryptor.exe -unlock -name MyName -o new.hc config.hc
 ```
 
-In the TUI: numbered menu, FileDL-style. `1` opens a `.hc`, `2` lists all
+In the UI: numbered menu, Terminal UI Style. `1` opens a `.hc`, `2` lists all
 decrypted fields, `3` strips protections (expiry -> lifeTime, device/account
 locks released), `4` edits one field, `5` writes a new `.hc`, `6`/`q` quits.
 You can drag a file onto the terminal or paste its path — quotes and `file://`
